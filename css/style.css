@@ -1,0 +1,130 @@
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+@font-face {
+	font-family:'Segoe UI';
+	src:url('SegoeUIBold.woff') format('woff');
+	src:url('SegoeUIRegular.woff') format('woff');
+}
+
+html{
+	font-family: 'Segoe UI', sans-serif;
+	text-align: center;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #464B4F;
+	margin-bottom: 60px;
+}
+
+header h1, header p {
+	color: #FFF;
+}
+
+header p {
+	max-width: 80%;
+	margin: 0% 30%;
+}
+p{
+	font-size: 18px;
+	color: #464B4F;
+}
+
+header{
+	background-color: #23232e;
+	color: #fff;
+	padding: 80px 0 50px 0;
+}
+
+.content{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 125px 0;
+}
+
+.header-title{
+	max-width: 940px;
+	margin: 182px auto;
+}
+
+.main-description p{
+	font-size: 30px;
+	margin: 0 43px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1:nth-child(2){
+	margin: 114px 0 92px;
+}
+.main-summary{
+	display: flex;
+	text-align: left;
+}
+h5{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 18px;
+}
+
+.main-summary p {
+	color: #888A8B;
+	line-height: 30px;
+}
+.main-text:nth-child(2){
+	margin: 0 20px;
+}
+main{
+	/* background-color: grey; */
+	background-image: url(../img/bg.svg);
+}
